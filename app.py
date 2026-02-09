@@ -113,4 +113,11 @@ st.write(
 )
 
 st.markdown(
-    \"\"\"\n1. **Draft** — Post created and saved.\n2. **Scheduled** — Queued with timezone-aware timestamp.\n3. **Publishing** — Background worker pushes to platform.\n4. **Success/Retry** — Status updated and retries handled.\n5. **Reported** — Engagement metrics collected.\n\"\"\"\n)
+    """
+1. **Draft** — Post created and saved.
+2. **Scheduled** — Queued with timezone-aware timestamp.
+3. **Publishing** — Background worker pushes to platform.
+4. **Success/Retry** — Status updated and retries handled.
+5. **Reported** — Engagement metrics collected.
+"""
+)
